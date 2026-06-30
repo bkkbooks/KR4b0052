@@ -1,0 +1,61 @@
+canonical_identifier: bkk:krp/KR4b0052/v1
+canonical_location: https://kanripo.org/bkk/KR4b0052/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 陶弘景集二卷
+  identifiers:
+    krp: KR4b0052
+  tags:
+    kr-categories: KR4b
+    tls-dates: dat04500
+  source:
+    repository: tls-texts
+    path: data/tls/KR4b0052.xml
+  edition:
+    short: bkk
+assets:
+  parts:
+  - {seq: 1, filename: KR4b0052_001.yaml, hash: 'sha256:4c8ed46b9dc8f5c9c4b022417724aeabdd6e70dc89d4f702a1e208d1ec796f27'}
+  - {seq: 2, filename: KR4b0052_002.yaml, hash: 'sha256:101eed4dd5e55230577777e94b4502bf7bc8d038ace0711febc666995f4b2525'}
+  - {seq: 3, filename: KR4b0052_003.yaml, hash: 'sha256:aa4042b7ad92c7db80a874eeb96ca2c7be761ceea57c1129fd96b794baaef8cf'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR4b0052_001.markers.yaml, hash: 'sha256:d4d81c3f31e6ed368d74cbc1f87d42c9ca1cc9d9b7aa987b758c8bd67e214245'}
+  - {seq: 2, role: markers, filename: assets/KR4b0052_002.markers.yaml, hash: 'sha256:ab3dbaf38216637a81abe59b38cc95a2bb294dcd91073da7956ea9d99da2055f'}
+  - {seq: 3, role: markers, filename: assets/KR4b0052_003.markers.yaml, hash: 'sha256:2b1a2e15adde55f9e80469136d0a75b6dce8e195f19f17ba7d0fd096bea9864e'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR4b0052_CHANT_001-1a.1-h
+    span:
+    - body
+    - 0
+    - 5318
+  label: 卷一
+  type: section
+  level: 1
+- ref:
+    seq: 2
+    marker_id: KR4b0052_CHANT_002-1a.1-h
+    span:
+    - body
+    - 0
+    - 5627
+  label: 卷二
+  type: section
+  level: 1
+- ref:
+    seq: 3
+    marker_id: KR4b0052_CHANT_003-1a.1-h
+    span:
+    - body
+    - 0
+    - 639
+  label: 附錄
+  type: section
+  level: 1
+hash: sha256:826691d4edd0fec936de46cd808500727837d66d9c943e5e52a0876e0f3f32af
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
