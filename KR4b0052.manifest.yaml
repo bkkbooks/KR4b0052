@@ -2,7 +2,7 @@ canonical_identifier: bkk:krp/KR4b0052/v1
 canonical_location: https://kanripo.org/bkk/KR4b0052/v1
 canonical_set:
   identifier: bkk:charset/cjk-v1
-  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+  hash: sha256:37995e65f5e6cdc8cfbc980fea50ec86663e3e7de950809f7e37f003754b3227
 metadata:
   title: 陶弘景集二卷
   identifiers:
@@ -17,13 +17,13 @@ metadata:
     short: bkk
 assets:
   parts:
-  - {seq: 1, filename: KR4b0052_001.yaml, hash: 'sha256:e47b972552df58fdf790efc9a3ba421ed4aa6f4c022832ca3c6dc5f94795f8a7'}
-  - {seq: 2, filename: KR4b0052_002.yaml, hash: 'sha256:a3a0f6399ece7bd6b2829c5913beb6c8e36721e6e127ee715c93de7831845a0f'}
-  - {seq: 3, filename: KR4b0052_003.yaml, hash: 'sha256:28d050cbd7ca07265d0cf152af2cdb1a8203829153ae51e92558f9c07c8eb7a8'}
+  - {seq: 1, filename: KR4b0052_001.yaml, hash: 'sha256:62d8e8cb40262cf79d55ae2e841791603cd5ca1ef01271a49b457f1e47da43ca'}
+  - {seq: 2, filename: KR4b0052_002.yaml, hash: 'sha256:e29463af8e7d24a732e0bcddad29f14700bfd70035784ba0fe5c4734343ddb61'}
+  - {seq: 3, filename: KR4b0052_003.yaml, hash: 'sha256:fe5bbea869ce1b510dfe5cd7f8e51eb5b84d0bf0804223bd1090a48c2f05fbfb'}
   markers:
-  - {seq: 1, role: markers, filename: assets/KR4b0052_001.markers.yaml, hash: 'sha256:e8e53b66163fba00f307e1871d939683bfaa74e40a05802921a599b1aa1010a4'}
-  - {seq: 2, role: markers, filename: assets/KR4b0052_002.markers.yaml, hash: 'sha256:33df7ae5e30aa4cd5fdf638a7983a8d1e33e9046a403b19c455598b6ca81630a'}
-  - {seq: 3, role: markers, filename: assets/KR4b0052_003.markers.yaml, hash: 'sha256:9a0a63d334c54c637d2d5186e6591ee7d3398d26ca8cf11fbb7328fa7cc7d306'}
+  - {seq: 1, role: markers, filename: assets/KR4b0052_001.markers.yaml, hash: 'sha256:9de42922ccefbbb4b3589949951bfadf1c608d0882f75f7957a5ca9ebde2733b'}
+  - {seq: 2, role: markers, filename: assets/KR4b0052_002.markers.yaml, hash: 'sha256:44147b18c9333543a0b67cf919595fec51fb08cfee8ccba1426a02152cb6480b'}
+  - {seq: 3, role: markers, filename: assets/KR4b0052_003.markers.yaml, hash: 'sha256:d4c9de11dc98aa1b40606b1ea58fc2b98de43805bf9c953952fa4d869387a22a'}
 table_of_contents:
 - ref:
     seq: 1
@@ -55,4 +55,7 @@ table_of_contents:
   label: 附錄
   type: section
   level: 1
-hash: sha256:efaa9ad361b9a00e70a2702f10b4a7d4f8936a3c5bb7e0ae807da35a8efad45f
+hash: sha256:d4d33213a12ee4d500b4852ebaddcf96f0306bf77ffd9ee5b772d22b0a65cae0
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:9bc9a4233a10ab6fe6494b31262c157187fd580f02a97cad91be81ccd48f7a20
